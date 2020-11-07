@@ -1,2 +1,2 @@
-# Project-linebot-NIxLine-Pizzanulok
-Project linebot NIxLine Pizzanulok
+# Project-linebot-NUxLine-Pizzanulok
+Project linebot NUxLine Pizzanulok
