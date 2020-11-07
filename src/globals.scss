@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+$brand-primary: #C40019;
+
+// Update Bulma's global variables
+$primary: $brand-primary;
+$family-sans-serif: 'Lato', sans-serif;
+$link: $brand-primary;
+
+@import "~bulma/";
+@import "~buefy/src/scss/buefy";

@@ -1,0 +1,26 @@
+{
+  "name": "pizzanulok",
+  "description": "Pizzanulok Dialogflow Fulfillment using Cloud Functions for Firebase",
+  "version": "0.0.1",
+  "private": true,
+  "license": "Apache Version 2.0",
+  "author": "Somjintana Korbut",
+  "engines": {
+    "node": "8"
+  },
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "firebase serve --only functions",
+    "deploy": "firebase deploy --only functions"
+  },
+  "dependencies": {
+    "actions-on-google": "^2.2.0",
+    "firebase-admin": "^8.0.0",
+    "firebase-functions": "^3.5.0",
+    "dialogflow": "^0.6.0",
+    "dialogflow-fulfillment": "^0.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
